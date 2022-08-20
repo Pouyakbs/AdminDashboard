@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AdminDashboard.Core.Contracts\AdminDashboard.Core.Contracts.csproj" />
+    <ProjectReference Include="..\AdminDashboard.Infrastructure.EF\AdminDashboard.Infrastructure.EF.csproj" />
+  </ItemGroup>
+
+</Project>

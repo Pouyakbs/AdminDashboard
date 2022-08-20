@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AdminDashboard.Core.Contracts\AdminDashboard.Core.Contracts.csproj" />
+    <ProjectReference Include="..\AdminDashboard.Infrastructure.Data\AdminDashboard.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\AdminDashboard.Infrastructure.EF\AdminDashboard.Infrastructure.EF.csproj" />
+  </ItemGroup>
+
+</Project>
